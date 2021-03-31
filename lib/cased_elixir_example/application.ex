@@ -13,6 +13,8 @@ defmodule CasedElixirExample.Application do
     ]
 
     opts = [strategy: :one_for_one, name: CasedElixirExample.Supervisor]
-    Supervisor.start_link(children, opts)
+    res = Supervisor.start_link(children, opts)
+    Cased.CLI.Runner.run
+    res
   end
 end
