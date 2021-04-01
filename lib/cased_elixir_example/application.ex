@@ -9,7 +9,7 @@ defmodule CasedElixirExample.Application do
   def start(_type, _args) do
     children = [
       # Other workers...
-      Cased.CLI.Supervisor
+      {Cased.CLI.Supervisor, close_shell: true}
     ]
 
     opts = [strategy: :one_for_one, name: CasedElixirExample.Supervisor]
