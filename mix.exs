@@ -22,7 +22,7 @@ defmodule CasedElixirExample.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:cased, github: "cased/cased-elixir", ref: "26930520c216c670cadf669b1a94c014a6adb945"}
+      {:cased, github: "cased/cased-elixir", ref: "dccd861fc2375dd0e190b2159cb9027f96619897"},
     ]
   end
 end
