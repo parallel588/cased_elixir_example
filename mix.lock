@@ -1,5 +1,5 @@
 %{
-  "cased": {:git, "https://github.com/cased/cased-elixir.git", "dccd861fc2375dd0e190b2159cb9027f96619897", [ref: "dccd861fc2375dd0e190b2159cb9027f96619897"]},
+  "cased": {:git, "https://github.com/cased/cased-elixir.git", "a87a8814258098945aa6c8493971de2ab8e1de32", [ref: "a87a8814258098945aa6c8493971de2ab8e1de32"]},
   "castore": {:hex, :castore, "0.1.9", "eb08a94c12ebff92a92d844c6ccd90728dc7662aab9bdc8b3b785ba653c499d5", [:mix], [], "hexpm", "99c3a38ad9c0bab03fee1418c98390da1a31f3b85e317db5840d51a1443d26c8"},
   "deep_merge": {:hex, :deep_merge, "1.0.0", "b4aa1a0d1acac393bdf38b2291af38cb1d4a52806cf7a4906f718e1feb5ee961", [:mix], [], "hexpm", "ce708e5f094b9cd4e8f2be4f00d2f4250c4095be93f8cd6d018c753894885430"},
   "extty": {:hex, :extty, "0.2.1", "4da6d78d41f0a9ff9980d82968476b4277ac0afa227d2ed91af0ffcbac2f451b", [:mix], [], "hexpm", "26b2e495c14501d4ae24c7dffba199f6abf0a0f69dcfd07db62f421952442f05"},
