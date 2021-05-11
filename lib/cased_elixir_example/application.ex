@@ -9,12 +9,12 @@ defmodule CasedElixirExample.Application do
   def start(_type, _args) do
     children = [
       # Other workers...
-      {Cased.CLI.Supervisor, autorun: true}
+      {Cased.CLI.Supervisor, autorun: false}
     ]
 
     opts = [strategy: :one_for_one, name: CasedElixirExample.Supervisor]
     res = Supervisor.start_link(children, opts)
-    #Cased.CLI.Runner.run()
+    Cased.CLI.Runner.run()
     res
   end
 end
